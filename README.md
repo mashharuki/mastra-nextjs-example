@@ -5,8 +5,8 @@
 ```
 pnpm i
 ```
-2. Fill `.env` with `OPEN_AI_API_KEY`
 
+2. Fill `.env` with `OPENAI_API_KEY`
 
 3. Run Next.js
 
