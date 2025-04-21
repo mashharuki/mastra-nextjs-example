@@ -7,5 +7,9 @@ export async function getWeatherInfo(city: string) {
 
   const result = await agent.generate(`What's the weather like in ${city}?`);
 
-  return result;
+  // Return a serializable plain object
+  return {
+    text: result.text,
+    city: city,
+  };
 }
