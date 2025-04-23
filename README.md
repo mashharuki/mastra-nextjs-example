@@ -13,3 +13,11 @@ pnpm i
 ```
 pnpm dev
 ```
+
+## Tech Stack
+
+- Next.js
+- TypeScript
+- PWA
+- shadcn/ui
+- Tailwind CSS
