@@ -1,3 +1,4 @@
-import { openai } from '@ai-sdk/openai';
+import { google } from '@ai-sdk/google';
 
-export const openAIGpt4o = openai('gpt-3.5-turbo');
+// Gemini Model
+export const gemini = google('gemini-2.0-flash');

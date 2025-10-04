@@ -1,6 +1,6 @@
 
 import { Agent } from '@mastra/core/agent';
-import { openAIGpt4o } from '../models';
+import { gemini } from '../models';
 import { weatherTool } from '../tools';
 
 /**
@@ -20,6 +20,6 @@ export const weatherAgent = new Agent({
 
       Use the weatherTool to fetch current weather data.
 `,
-  model: openAIGpt4o,
-  tools: { weatherTool },
+  model: gemini,
+  tools: { weatherTool }
 });
