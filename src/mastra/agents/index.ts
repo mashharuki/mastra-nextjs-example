@@ -1,6 +1,6 @@
 
 import { Agent } from '@mastra/core/agent';
-import { gemini } from '../models';
+import { bedrockModel } from '../models';
 import { weatherTool } from '../tools';
 
 /**
@@ -20,6 +20,6 @@ export const weatherAgent = new Agent({
 
       Use the weatherTool to fetch current weather data.
 `,
-  model: gemini,
+  model: bedrockModel,
   tools: { weatherTool }
 });

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ai-sdk/amazon-bedrock": "^3.0.30",
     "@ai-sdk/google": "^2.0.17",
     "@mastra/core": "latest",
     "@radix-ui/react-slot": "^1.2.0",
